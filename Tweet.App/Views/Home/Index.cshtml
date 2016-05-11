@@ -1,0 +1,18 @@
+﻿@model IEnumerable<global::Tweet.App.Models.ViewModels.TweetViewModel>
+@using Microsoft.AspNet.Identity
+@using Tweet.Models
+
+
+@if (this.User.Identity.IsAuthenticated)
+{
+    Html.RenderPartial("Tweets/CreateTweetPartial");
+}
+
+<div class="row">
+    @Html.DisplayFor(x => x)
+</div>
+
+
+
+
+

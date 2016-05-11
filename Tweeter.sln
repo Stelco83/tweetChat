@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet.App", "Tweet.App\Tweet.App.csproj", "{3C34B718-6D82-465D-96F2-689FBBB0542A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet.Models", "Tweet.Models\Tweet.Models.csproj", "{19DE0B22-29D9-4DFD-ADC0-48BD69731093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet.Data", "Tweet.Data\Tweet.Data.csproj", "{E2238500-CD1E-4951-8476-AF005E09A952}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tweet.Common", "Tweet.Common\Tweet.Common.csproj", "{982787CC-99D3-4592-9582-3E59EBBE7C31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C34B718-6D82-465D-96F2-689FBBB0542A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C34B718-6D82-465D-96F2-689FBBB0542A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C34B718-6D82-465D-96F2-689FBBB0542A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C34B718-6D82-465D-96F2-689FBBB0542A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19DE0B22-29D9-4DFD-ADC0-48BD69731093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DE0B22-29D9-4DFD-ADC0-48BD69731093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DE0B22-29D9-4DFD-ADC0-48BD69731093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DE0B22-29D9-4DFD-ADC0-48BD69731093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2238500-CD1E-4951-8476-AF005E09A952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2238500-CD1E-4951-8476-AF005E09A952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2238500-CD1E-4951-8476-AF005E09A952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2238500-CD1E-4951-8476-AF005E09A952}.Release|Any CPU.Build.0 = Release|Any CPU
+		{982787CC-99D3-4592-9582-3E59EBBE7C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982787CC-99D3-4592-9582-3E59EBBE7C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982787CC-99D3-4592-9582-3E59EBBE7C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982787CC-99D3-4592-9582-3E59EBBE7C31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+EndGlobal

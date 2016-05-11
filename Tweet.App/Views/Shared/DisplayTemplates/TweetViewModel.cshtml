@@ -1,0 +1,26 @@
+﻿@using Tweet.App.Controllers
+@using Tweet.Models
+@using Message = System.ServiceModel.Channels.Message
+@model global::Tweet.App.Models.ViewModels.TweetViewModel
+
+
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        <p>@Model.User.UserName</p>
+        <img src="@Model.User.pictureUrl" alt="" width="40" />
+    </div>
+    <div class="panel-body">
+        <p>@Model.Text</p>
+        <p>@Model.DatePosted</p>
+
+    </div>
+    @{
+//TODO: Every tweet should have favorite, retweet, report, reply and share buttons.
+
+
+
+    }
+</div>
+
+
+

@@ -1,0 +1,14 @@
+﻿@model IQueryable<Tweet.App.Models.ViewModels.UsersViewModel>
+@using Microsoft.AspNet.Identity
+
+
+
+@if (this.User.Identity.IsAuthenticated)
+{
+    <div class="row">
+        @Html.DisplayFor(u => u)
+    </div>
+
+}
+
+

@@ -1,0 +1,7 @@
+C:\Users\stelco\documents\visual studio 2015\Projects\Tweeter\Tweet.Common\bin\Debug\Tweet.Common.dll
+C:\Users\stelco\documents\visual studio 2015\Projects\Tweeter\Tweet.Common\bin\Debug\Tweet.Common.pdb
+C:\Users\stelco\documents\visual studio 2015\Projects\Tweeter\Tweet.Common\bin\Debug\AutoMapper.dll
+C:\Users\stelco\documents\visual studio 2015\Projects\Tweeter\Tweet.Common\bin\Debug\AutoMapper.xml
+C:\Users\stelco\documents\visual studio 2015\Projects\Tweeter\Tweet.Common\obj\Debug\Tweet.Common.dll
+C:\Users\stelco\documents\visual studio 2015\Projects\Tweeter\Tweet.Common\obj\Debug\Tweet.Common.pdb
+C:\Users\stelco\documents\visual studio 2015\Projects\Tweeter\Tweet.Common\obj\Debug\Tweet.Common.csprojResolveAssemblyReference.cache
